@@ -11,6 +11,8 @@ def start_application():
     create_tables()
     return app
 
+app = start_application()
+
 @app.get("/")
 def hello_api():
     return {"detail":"Hello World!"}

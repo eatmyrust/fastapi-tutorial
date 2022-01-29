@@ -5,3 +5,4 @@ test_db.db
 .pytest_cache
 htmlcov
 .coverage
+.DS_Store

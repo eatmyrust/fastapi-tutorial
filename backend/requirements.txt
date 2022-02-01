@@ -21,3 +21,6 @@ pytest-cov
 
 #for jwt
 python-jose
+
+#for form data
+python-multipart

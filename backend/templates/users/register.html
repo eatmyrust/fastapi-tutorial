@@ -8,6 +8,12 @@
 <div class="container">
   <h1>Register</h1>
 
+  <div class="font-weight-bold">
+    {% for error in errors %}
+      <li>{{error}}</li>
+    {% endfor %}
+  </div>
+
   <form method="POST">
       <div class="mb-3">
           <label>Username</label>
